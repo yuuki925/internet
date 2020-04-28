@@ -6,64 +6,94 @@
     <meta http-equiv="X-UA Compatible" content="ie=edge">
     <title>ポートフォリオ</title>
     <style type="text/css">
-body{
+body.html{
+    height: 100%;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
-#title{
-  margin: 8px;
-  height: 100px;
-  width: 200px;
+div.parallax1{
+    background-image: url("gazou/Round.png") ;
+}
+div.parallax2{
+    background-image: url("gazou/triangle.png");
+}
+div.parallax3{
+    background-image: url("gazou/square.png");
+}
+div.title{
+  /* margin: 0; */
+  height: 150px;
+  width: 300px;
   background-color: #D6FAE0;
   color: #fff;
-  font-size: 30pt;
+  font-size: 50pt;
 }
-#box1 {
-
+h1 {
+    /* margin: 0%; */
+    height: 100px;
+    width: 150px;
+    left: 0;
 }
 
 #box2 {
+    margin: 8px;
     height: 150px;
     width: 260px;
     background-color: #d7faf2;
+    background-repeat: no-repeat;
 }
-
-#box3 {
-    height: 500px;
+div.contents {
+    background-color: #d7faf2;
+    display: flex;
+    background-image: url("gazou/pc.jpg");
+}
+div.footer {
+    margin: 8px;
+    height: 250px;
     width: 100%;
     background-color: #D6FAE0;
 }
-#p1 {
-    left: 90%;
+#h4 {
+    display: flex;
+    background-color: #D6FAE0;
 }
     </style>
 </head>
 <body>
-<div id="title">
+<div class="parallax1"></div>
+
+<div class="pallax2"></div>
+
+<div class="pallax3"></div>
+<div class="title">
     Welcome
 </div>
-
-<div id="box1">
 <h1>
     introduction
 </h1>
-<p>name 佐藤侑希</p>
-<p>butrthplace 東京都</p>
-<p>birthday 1998年2月19日</p>
-</div>
+<ul>
+    <li>name 佐藤侑希</li>
+    <li>butrthplace 東京都</li>
+    <li>birthday 1998年2月19日</li>
+</ul>
 <div id="box2">
-    <h2>Skill</h2>
+ <h2>Skill</h2>
 <p>Word,PowerPoint</p>
 <p>どんな仕事も真面目に頑張ります。</p>
 </div>
-<div id="box3">
+<div class="contents">
+</div>
+<div class="footer">
 <h3>production time</h3>
 <p>three Day</p>
 <h4>season</h4>
 <p>April</p>
-<p1>Thank you for watching!</p1>
+</div>
+<div>
+<h4>Thank you for watching!</h4>
 </div>
 </body>
 </html>
